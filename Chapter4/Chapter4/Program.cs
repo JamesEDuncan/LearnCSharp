@@ -10,8 +10,12 @@ namespace Chapter4
     {
         static void Main(string[] args)
         {
-            //@A given company has name, address, phone number, fax number, web site and manager.The manager has name, surname and phone number. Write a program that reads information about the 
-            //company and its manager and then prints it on the console.Write a program that reads from the console the radius "r" of a circle and prints its perimeter and area.
+            //Write a program that prints three numbers in three virtual columns
+            //on the console.Each column should have a width of 10 characters and
+            //the numbers should be left aligned. The first number should be an
+            //integer in hexadecimal; the second should be fractional positive; and
+            //the third – a negative fraction.The last two numbers have to be
+            //rounded to the second decimal place.
         }
     }
 }
