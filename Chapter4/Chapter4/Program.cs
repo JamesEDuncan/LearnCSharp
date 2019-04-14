@@ -10,12 +10,10 @@ namespace Chapter4
     {
         static void Main(string[] args)
         {
-            //Write a program that prints three numbers in three virtual columns
-            //on the console.Each column should have a width of 10 characters and
-            //the numbers should be left aligned. The first number should be an
-            //integer in hexadecimal; the second should be fractional positive; and
-            //the third – a negative fraction.The last two numbers have to be
-            //rounded to the second decimal place.
+            //Write a program that reads from the console two integer numbers (int)
+            //and prints how many numbers between them exist, such that the
+            //remainder of their division by 5 is 0.Example: in the range(14, 25)
+            //there are 3 such numbers: 15, 20 and 25.
         }
     }
 }
