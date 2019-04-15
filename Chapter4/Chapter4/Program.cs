@@ -10,8 +10,8 @@ namespace Chapter4
     {
         static void Main(string[] args)
         {
-            //Write a program that prints on the console the first 100 numbers in the
-            //Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, …
+            //Write a program that calculates the sum (with precision of 0.001) of
+            //the following sequence: 1 + 1 / 2 - 1 / 3 + 1 / 4 - 1 / 5 + …
         }
     }
 }
