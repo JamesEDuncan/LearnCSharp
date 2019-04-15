@@ -10,7 +10,9 @@ namespace Chapter4
     {
         static void Main(string[] args)
         {
-            //Write a program that reads two numbers from the console and prints the greater of them. Solve the problem without using conditional statements.
+            //Write a program that reads five integer numbers and prints their
+            //sum.If an invalid number is entered the program should prompt the user
+            //to enter another number.
         }
     }
 }
