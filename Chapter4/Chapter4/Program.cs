@@ -10,8 +10,8 @@ namespace Chapter4
     {
         static void Main(string[] args)
         {
-            //Write a program that reads an integer number n from the console and
-            //prints all numbers in the range[1…n], each on a separate line.
+            //Write a program that prints on the console the first 100 numbers in the
+            //Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, …
         }
     }
 }
