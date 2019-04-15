@@ -10,8 +10,8 @@ namespace Chapter4
     {
         static void Main(string[] args)
         {
-            //Write a program that reads an integer number n from the console. After
-            //that reads n numbers from the console and prints their sum.
+            //Write a program that reads an integer number n from the console and
+            //prints all numbers in the range[1…n], each on a separate line.
         }
     }
 }
