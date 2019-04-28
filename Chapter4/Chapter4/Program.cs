@@ -17,7 +17,7 @@ namespace Chapter4
             Console.Write("Please type a different number: ");
             double secondNumber = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("The larger number is " + Math.Max(firstNumber, secondNumber) + ".");
+            Console.WriteLine("The larger number is {0}.", Math.Max(firstNumber, secondNumber));
         }
     }
 }
