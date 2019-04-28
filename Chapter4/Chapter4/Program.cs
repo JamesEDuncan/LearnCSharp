@@ -11,6 +11,7 @@ namespace Chapter4
         static void Main(string[] args)
         {
             //Write a program that reads from the console the radius "r" of a circle and prints its perimeter and area.
+            Console.Write("Please enter the radius of a circle: ");
             double r = double.Parse(Console.ReadLine());
             double parameter = 2 * Math.PI * r;
             double area = Math.PI * r * r;
