@@ -12,15 +12,31 @@ namespace Chapter4
         {
             // 7. Write a program that reads five integer numbers and prints their sum. If an invalid number is entered the program should prompt the user to enter another number.
 
-            int x = 0;
+            int loopCounter = 0;
             int tempInt = 0;
             int sumInt = 0;
+            int checkIfRealInt;
             do
             {
-                Console.WriteLine("Please enter a nubmer of type int");
-                tempInt = int.Parse(Console.ReadLine());
+                Console.Write("Please enter a nubmer of type int: ");
+                string parseString = Console.ReadLine();
+
+                do
+                {
+                    if (int.TryParse(parseString, out checkIfRealInt))
+                    {
+                        tempInt = int.Parse(parseString);
+                    }
+                    else
+                    {
+                        Console.Write("Try a real int: ");
+                        parseString = Console.ReadLine();
+                    }
+                } while (int.TryParse(parseString, out checkIfRealInt) == false);
+                
                 sumInt += tempInt;
-            } while (++x < 5);
+
+            } while (++loopCounter < 5);
 
             Console.WriteLine("The sum of the int's is " + sumInt);
         }
