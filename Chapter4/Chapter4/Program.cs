@@ -19,10 +19,11 @@ namespace Chapter4
             do
             {
                 Console.Write("Please enter a nubmer of type int: ");
-                string parseString = Console.ReadLine();
-
+                string parseString;
+                
                 do
                 {
+                    parseString = Console.ReadLine();
                     if (int.TryParse(parseString, out checkIfRealInt))
                     {
                         tempInt = int.Parse(parseString);
@@ -30,7 +31,6 @@ namespace Chapter4
                     else
                     {
                         Console.Write("Try a real int: ");
-                        parseString = Console.ReadLine();
                     }
                 } while (int.TryParse(parseString, out checkIfRealInt) == false);
                 
